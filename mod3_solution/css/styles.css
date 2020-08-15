@@ -1,0 +1,49 @@
+#header-nav {
+  /*height: 80px;*/
+
+}
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list a {
+  text-align: center;
+  color: white;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  color: black;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.category-tile p {
+  text-align: justify;
+}
+
+#menu-categories-title {
+  margin-top: 0px;
+  font-weight: bold;
+
+}
+#main-content h3 {
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background: brown
+  }
+}
